@@ -1,0 +1,22 @@
+#mainNav {
+    padding-top: 20px;
+    .navbar-brand {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .nav-link {
+      font-weight: 400;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-size: 1.3rem;
+          padding: 15px 20px;
+          &:hover,
+          &:active {
+            border-bottom: 2px solid white;
+          }
+        }
+      }
+    }
+}
