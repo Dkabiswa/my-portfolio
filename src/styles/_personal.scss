@@ -1,0 +1,14 @@
+.page-top {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height                 : 100vh;
+  background             : no-repeat center center scroll;
+  background-color: #191A1D;
+//   background: rgba(0, 0, 0, 0) url("../images/IMG-20180103-WA0033.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size   : cover;
+  -o-background-size     : cover;
+  background-size        : cover;
+  filter: grayscale(100%);
+}
