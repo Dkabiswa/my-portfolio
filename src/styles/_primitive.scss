@@ -407,7 +407,7 @@
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 1.2;
-    color: #404040;
+    // color: #404040;
   }
   
   h1:not(:first-child),
@@ -558,9 +558,5 @@ html {
   height: 100%;
   margin: 0px;
   padding: 0px;
-//   font-family: 'Open Sans', sans-serif;
-//   font-family: 'Rajdhani', sans-serif;
-//   font-weight: $font-weight-bold;
-//   font-size: 0.9rem;
-//   color: $another;
+  font-family: 'Titillium Web', sans-serif;
 }
