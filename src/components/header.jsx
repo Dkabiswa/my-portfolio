@@ -12,16 +12,16 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto my-2 my-lg-0 menu">
                         <li className="nav-item">
-                            <a className="nav-link" href="my-portfolio#services">Services</a>
+                            <a className="nav-link" href="#services">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/my-portfolio#projects">Projects</a>
+                            <a className="nav-link" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/my-portfolio#about">About</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/my-portfolio#contact">Contact</a>
+                            <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
