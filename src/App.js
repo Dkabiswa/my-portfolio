@@ -9,7 +9,7 @@ import Home from "./components"
 function App() {
   return (
     <div className="App">
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Switch>
             <Route exact path="/my-portfolio">
               <Home />
