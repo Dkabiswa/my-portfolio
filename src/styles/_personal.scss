@@ -40,3 +40,55 @@
     font-size: 40px;
   }
 }
+
+#projects {
+  background-color: #F6F6F6;
+}
+
+.about-sect {
+  margin: 50px 0;
+  padding: 0;
+  // border-bottom: 1px solid black;
+  .about-words {
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+    p {
+      // padding-top: 2px;
+      font-size: 15px;
+      // line-height: 1.5;
+      font-weight: 500;
+    }
+  }
+  .about-image {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+  }
+  @media (max-width: 576px) {
+    .about-words {
+      padding: 5px 15px;
+      p {
+          font-size: 16px;
+          // padding-top: 5px;
+        }
+    }
+  }
+}
+
+.others {
+  .card-1 {
+    margin-left: 90px;
+  }
+  .card-2 {
+    margin: 0 50px;
+  }
+  @media (max-width: 769px) {
+    .card-1, .card-2, .card-3{
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  }
+}
