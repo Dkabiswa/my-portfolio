@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header';
 import PageTop from './PageTop';
 import Services from './Services';
+import Projects from './Projects';
 
 function Home() {
   return (
@@ -9,7 +10,10 @@ function Home() {
         <Header />
         <PageTop />
         <section id="services">
-            <Services />
+          <Services />
+        </section>
+        <section id="projects">
+          <Projects />
         </section>
     </>
   );

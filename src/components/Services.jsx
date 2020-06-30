@@ -3,7 +3,7 @@ import React from 'react';
 const Services = () => {
     return (
         <div className="container-fluid services-sect pt-4" id="services">
-                <h2>SERVICES</h2>
+                <h3>SERVICES</h3>
         <div className="row pb-4">
                 <div className="col-md-3">
                     <div className="services-icon pb-2">
