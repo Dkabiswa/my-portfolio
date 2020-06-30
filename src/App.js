@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -9,13 +9,13 @@ import Home from "./components"
 function App() {
   return (
     <div className="App">
-        <Router>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/my-portfolio">
               <Home />
             </Route>
           </Switch>
-        </Router>
+        </HashRouter>
       </div>
   );
 }
