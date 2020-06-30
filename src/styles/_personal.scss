@@ -43,20 +43,20 @@
 
 #projects {
   background-color: #F6F6F6;
+  padding-bottom: 30px;
 }
 
 .about-sect {
   margin: 50px 0;
   padding: 0;
+  min-height: 350px;
   // border-bottom: 1px solid black;
   .about-words {
     height: 100%;
     align-items: center;
     padding: 20px;
     p {
-      // padding-top: 2px;
       font-size: 15px;
-      // line-height: 1.5;
       font-weight: 500;
     }
   }
@@ -72,7 +72,6 @@
       padding: 5px 15px;
       p {
           font-size: 16px;
-          // padding-top: 5px;
         }
     }
   }
@@ -90,5 +89,11 @@
       margin: 0;
       margin-bottom: 15px;
     }
+  }
+}
+.about-me {
+  p {
+    font-size: 18px;
+    font-weight: 600;
   }
 }
