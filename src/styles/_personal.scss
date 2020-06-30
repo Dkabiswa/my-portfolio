@@ -10,7 +10,15 @@
   }
   p {
       font-size: 2rem;
-      color: #ABAB99
+      color: #ABAB99;
+  }
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -20,11 +28,13 @@
     bottom: 0;
     right: 0;
     left: 0;
+    @media (max-width: 576px) {
+      top: 20%;
+    }
 }
 
 .top-image {
     width: 100%;
-    height: 300px;
     img {
         width: 100%;
         height: auto;
@@ -96,4 +106,29 @@
     font-size: 18px;
     font-weight: 600;
   }
+}
+
+.contact {
+  background-color: #191A1D;
+  padding: 80px;
+  font-size: 24px;
+  .fas, .fab {
+    margin-right: 10px;
+    color: #4B6CC1;
+  }
+  a, p {
+    color: #ABAB99;
+  }
+  a {
+    font-weight: 600;
+  }
+  h1 {
+    color: var(--white);
+    font-size: 50px;
+  }
+}
+
+.foot {
+  padding: 30px;
+  background-color: #151618;
 }

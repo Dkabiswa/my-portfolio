@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <>
             <div className="container">
-                <div className="text-center pt-2"><h3>SAMPLE WORKS</h3></div>
+                <div className="text-center py-5"><h3>SAMPLE WORKS</h3></div>
                 <div className="row about-sect">
                     <div className="col-md-6 about-words">
                         <h1>Ikiringo</h1>

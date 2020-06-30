@@ -4,6 +4,7 @@ import PageTop from './PageTop';
 import Services from './Services';
 import Projects from './Projects';
 import About from './About';
+import Contact from './Contact';
 
 function Home() {
   return (
@@ -18,6 +19,9 @@ function Home() {
         </section>
         <section id="about">
           <About />
+        </section>
+        <section id="contact">
+          <Contact />
         </section>
     </>
   );
