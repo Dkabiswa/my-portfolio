@@ -2,8 +2,10 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className="container-fluid services-sect pt-4" id="services">
-                <h3>SERVICES</h3>
+        <div className="container-fluid services-sect" id="services">
+                <div className="py-5">
+                    <h3>SERVICES</h3>
+                </div>
         <div className="row pb-4">
                 <div className="col-md-3">
                     <div className="services-icon pb-2">
