@@ -20,7 +20,7 @@ const Services = () => {
                     <div className="services-icon pb-2">
                         <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h5>Front-end Development</h5>
+                    <h5>Front-end/Back-end Development</h5>
                     <p>Using modern technologies like React, Vue ad Angular to create
                         a world class website / web application
                     </p>
@@ -29,9 +29,8 @@ const Services = () => {
                     <div className="services-icon pb-2">
                         <i class="fas fa-cogs"></i>
                     </div>
-                    <h5>Back-end Develpment</h5>
-                    <p>Offer back-end solutions using node/express js to your day to day challenges
-                        i.e APIs and others
+                    <h5>Bot Develpment</h5>
+                    <p>Offer bot solutions on different platforms i.e slack, whatsapp, facebook, telegram etc
                     </p>
                 </div>
                 <div className="col-md-3">
