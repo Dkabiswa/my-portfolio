@@ -16,10 +16,10 @@ const About = () => {
                     <li>Docker</li>
                     <li>Pythoon</li>
                 </ul>
-                My current personal project is <a href="https://github.com/Dkabiswa/Insta-Media">InstaMedia</a> an application which elps you embed instagram wall
+                My current personal project is <a href="https://github.com/Dkabiswa/Insta-Media">InstaMedia</a> an application which helps you embed instagram wall
                 in you react and vue websites. More Information can be found in my <a href="https://drive.google.com/file/d/1dbAetbiT0z_buNyZuBnuDCiiswOiV_IB/view?usp=sharing" target="blank">Resume</a> 
             </p>
-            <p>When not coding i enjoy listening to wide range of music from reggea to OPM, Watch Football a devoted manchester united fan
+            <p>When not coding i enjoy listening to wide range of music from reggea to OPM, Watch Football iam devoted manchester united fan,
                 Read books and tech blogs.
             </p>
             <h1>Why work with me?</h1>
