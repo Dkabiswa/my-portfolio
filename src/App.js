@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 import Home from "./components"
@@ -10,11 +10,9 @@ function App() {
   return (
     <div className="App">
         <Router>
-          <Switch>
-            <Route exact path="/my-portfolio">
-              <Home />
-            </Route>
-          </Switch>
+          <Routes>
+        <Route path="/my-portfolio" element={<Home />} />
+      </Routes>
         </Router>
       </div>
   );
