@@ -1,8 +1,7 @@
 .page-top {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height                 : 100vh;
+  display: flex;
+  align-items: center;
+  min-height  : 100vh;
   background-color: #191A1D;
   h1 {
     color: var(--white);
@@ -22,24 +21,16 @@
   }
 }
 
-.top-content {
-    position: absolute;
-    top: 40%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    @media (max-width: 576px) {
-      top: 20%;
-    }
+.top-words {
+    margin-top: 40px;
 }
 
 .top-image {
-    width: 100%;
     img {
-        width: 100%;
+        width: 95%;
         height: auto;
         filter: grayscale(100%);
-        border-radius: 60%;
+        border-radius: 50%;
     }
   }
 
